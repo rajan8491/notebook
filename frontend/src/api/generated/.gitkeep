@@ -1,0 +1,5 @@
+// Placeholder – run `npm run gen:api` after the FastAPI backend is running.
+// openapi-typescript will generate this file from /openapi.json.
+// Example:
+//   npx openapi-typescript http://localhost:8000/openapi.json -o src/api/generated/schema.d.ts
+export {}

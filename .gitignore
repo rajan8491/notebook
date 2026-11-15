@@ -1,0 +1,164 @@
+# =====================================================
+# PYTHON / FASTAPI BACKEND
+# =====================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python logs
+*.log
+
+# =====================================================
+# UV PACKAGE MANAGER
+# =====================================================
+
+# Local virtual environment
+.venv/
+
+# uv cache (if stored inside project)
+.uv_cache/
+
+# NOTE:
+# Keep uv.lock committed for reproducible dependencies.
+
+# =====================================================
+# REACT / TYPESCRIPT / NODE.JS FRONTEND
+# =====================================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+dist-ssr
+*.local
+
+# Vite
+.vite/
+
+# Next.js (if used later)
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# ESLint
+.eslintcache
+
+# =====================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# =====================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# =====================================================
+# IDE / EDITORS
+# =====================================================
+
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================================================
+# OPERATING SYSTEM
+# =====================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =====================================================
+# LOGS / TEMPORARY FILES
+# =====================================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# =====================================================
+# DATABASE / LOCAL DATA
+# =====================================================
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Local database dumps
+*.dump
+*.bak
+
+# Local uploaded files and generated data
+uploads/
+local-data/
+
+# =====================================================
+# DOCKER / LOCAL DEVELOPMENT
+# =====================================================
+
+# Docker volumes (if stored locally)
+docker-data/
+
+# =====================================================
+# OS / DEVELOPMENT MISC
+# =====================================================
+
+*.orig
+*.rej
+*.patch
